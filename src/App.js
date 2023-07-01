@@ -1,8 +1,12 @@
 import "./App.css";
+import Boards from "./components/Boards";
+
 function App() {
   return (
     <div className="game">
-      <div className="game-board">board</div>
+      <div className="game-board">
+        <Boards />
+      </div>
       <div className="game-info">info</div>
     </div>
   );
